@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3D Тур — TREE BAR</title>
+  <link id="theme-css" rel="stylesheet" href="style-dark.css" />
+</head>
+<body class="tour-page">
+
+  <a href="index.html" class="back-btn">Главная</a>
+
+  <div class="page-title-wrap">
+    <h1 class="page-title"><span>3D</span> Тур</h1>
+    <div class="page-line"></div>
+  </div>
+
+  <p style="font-size:12px;letter-spacing:0.1em;color:rgba(255,255,255,0.35);margin-top:16px;">
+    Виртуальный тур по TREE BAR
+  </p>
+
+  <div class="tour-frame">
+    <!--
+      ИНСТРУКЦИЯ:
+      Замените содержимое ниже на iframe от Matterport, Google Street View или другого 3D-сервиса.
+
+      Пример Matterport:
+      <iframe src="https://my.matterport.com/show/?m=XXXXXXX"
+              width="100%" height="100%" frameborder="0"
+              allowfullscreen allow="xr-spatial-tracking"></iframe>
+
+      Пример Google Maps Street View:
+      <iframe src="https://www.google.com/maps/embed?pb=..."
+              width="100%" height="100%" frameborder="0"
+              style="border:0" allowfullscreen></iframe>
+    -->
+    <div class="tour-placeholder">
+      <div class="tour-icon">🌐</div>
+      <p>3D тур будет добавлен</p>
+      <p style="font-size:10px;opacity:0.5;margin-top:4px;">Вставьте iframe от Matterport или Google Street View</p>
+    </div>
+  </div>
+
+  <!-- Quick links -->
+  <div style="margin-top:40px;display:flex;gap:16px;flex-wrap:wrap;justify-content:center;">
+    <a href="interior.html" style="
+      display:inline-flex;align-items:center;gap:8px;
+      padding:14px 28px;border:1px solid rgba(212,175,55,0.25);
+      color:rgba(255,255,255,0.6);text-decoration:none;
+      font-size:11px;letter-spacing:0.2em;text-transform:uppercase;
+      transition:all 0.3s;font-family:'Montserrat',sans-serif;
+    " onmouseover="this.style.borderColor='rgba(212,175,55,0.6)';this.style.color='#D4AF37'"
+       onmouseout="this.style.borderColor='rgba(212,175,55,0.25)';this.style.color='rgba(255,255,255,0.6)'">
+      🏛 Смотреть фото интерьера
+    </a>
+    <a href="https://wa.me/87082367004" target="_blank" rel="noopener" style="
+      display:inline-flex;align-items:center;gap:8px;
+      padding:14px 28px;border:1px solid rgba(37,211,102,0.2);
+      color:rgba(255,255,255,0.6);text-decoration:none;
+      font-size:11px;letter-spacing:0.2em;text-transform:uppercase;
+      transition:all 0.3s;font-family:'Montserrat',sans-serif;
+    " onmouseover="this.style.borderColor='rgba(37,211,102,0.5)';this.style.color='#25D366'"
+       onmouseout="this.style.borderColor='rgba(37,211,102,0.2)';this.style.color='rgba(255,255,255,0.6)'">
+      💬 Забронировать стол
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

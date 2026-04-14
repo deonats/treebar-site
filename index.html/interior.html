@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Интерьер — TREE BAR</title>
+  <link id="theme-css" rel="stylesheet" href="style-dark.css" />
+  <style>
+    /* Placeholder photo colors to simulate real photos */
+    .ph-1 { background: linear-gradient(135deg, #1a1206 0%, #3d2b0a 50%, #1a1206 100%); }
+    .ph-2 { background: linear-gradient(135deg, #0d1a12 0%, #1a3322 50%, #0d1a12 100%); }
+    .ph-3 { background: linear-gradient(135deg, #1a0d08 0%, #3d1a0d 50%, #1a0d08 100%); }
+    .ph-4 { background: linear-gradient(135deg, #0d0d1a 0%, #1a1a3d 50%, #0d0d1a 100%); }
+    .ph-5 { background: linear-gradient(135deg, #1a1206 0%, #2b2106 50%, #1a1206 100%); }
+    .ph-6 { background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0a0a0a 100%); }
+    .ph-7 { background: linear-gradient(135deg, #1a0a0a 0%, #330d0d 50%, #1a0a0a 100%); }
+    .ph-8 { background: linear-gradient(135deg, #0a1a0a 0%, #0d330d 50%, #0a1a0a 100%); }
+
+    .gallery-placeholder {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      position: absolute;
+      inset: 0;
+    }
+
+    .gallery-placeholder-icon {
+      font-size: 40px;
+      opacity: 0.25;
+    }
+
+    .gallery-placeholder-label {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 9px;
+      letter-spacing: 0.3em;
+      color: rgba(212,175,55,0.35);
+      text-transform: uppercase;
+    }
+
+    /* Real photo approach — use Unsplash with restaurant-style images */
+    .gallery-item img { display: block; }
+  </style>
+</head>
+<body class="interior-page">
+
+  <a href="index.html" class="back-btn">Главная</a>
+
+  <div class="page-title-wrap">
+    <h1 class="page-title"><span>Интерьер</span></h1>
+    <div class="page-line"></div>
+  </div>
+
+  <div class="gallery-grid">
+
+    <!-- Using Unsplash for restaurant atmosphere photos -->
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=80" alt="TREE BAR — общий зал" loading="lazy" />
+      <div class="gallery-overlay"><span class="gallery-overlay-icon">⊕</span></div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1550966871-3ed3cfd6f5b3?w=800&q=80" alt="TREE BAR — барная стойка" loading="lazy" />
+      <div class="gallery-overlay"><span class="gallery-overlay-icon">⊕</span></div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80" alt="TREE BAR — атмосфера" loading="lazy" />
+      <div class="gallery-overlay"><span class="gallery-overlay-icon">⊕</span></div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=800&q=80" alt="TREE BAR — детали интерьера" loading="lazy" />
+      <div class="gallery-overlay"><span class="gallery-overlay-icon">⊕</span></div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&q=80" alt="TREE BAR — уютный уголок" loading="lazy" />
+      <div class="gallery-overlay"><span class="gallery-overlay-icon">⊕</span></div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=800&q=80" alt="TREE BAR — вечернее освещение" loading="lazy" />
+      <div class="gallery-overlay"><span class="gallery-overlay-icon">⊕</span></div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1529543544282-ea669407fca3?w=800&q=80" alt="TREE BAR — декор" loading="lazy" />
+      <div class="gallery-overlay"><span class="gallery-overlay-icon">⊕</span></div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=800&q=80" alt="TREE BAR — стол" loading="lazy" />
+      <div class="gallery-overlay"><span class="gallery-overlay-icon">⊕</span></div>
+    </div>
+
+  </div>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" class="lightbox">
+    <button class="lightbox-close">✕</button>
+    <button class="lightbox-nav lightbox-prev">‹</button>
+    <img class="lightbox-img" src="" alt="" />
+    <button class="lightbox-nav lightbox-next">›</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

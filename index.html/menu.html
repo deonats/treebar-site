@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Меню — TREE BAR</title>
+  <link id="theme-css" rel="stylesheet" href="style-dark.css" />
+</head>
+<body class="menu-page">
+
+  <a href="index.html" class="back-btn">Главная</a>
+
+  <!-- HERO -->
+  <header class="menu-hero">
+    <h1 class="menu-title"><span>TREE</span> BAR</h1>
+    <p class="menu-subtitle">Меню · Menu</p>
+  </header>
+
+  <!-- CATEGORY TABS -->
+  <div class="cat-tabs">
+    <button class="cat-tab active" data-target="all">Всё меню</button>
+    <button class="cat-tab" data-target="salads">Салаты</button>
+    <button class="cat-tab" data-target="company">На компанию</button>
+    <button class="cat-tab" data-target="cold">Холодные закуски</button>
+    <button class="cat-tab" data-target="hot-apps">Горячие закуски</button>
+    <button class="cat-tab" data-target="hot">Горячие блюда</button>
+    <button class="cat-tab" data-target="grill">Шашлыки</button>
+    <button class="cat-tab" data-target="sides">Гарниры</button>
+    <button class="cat-tab" data-target="pizza">Пицца</button>
+  </div>
+
+  <!-- MENU CONTENT -->
+  <div class="menu-content">
+
+    <!-- САЛАТЫ -->
+    <section class="menu-section" data-section="salads">
+      <div class="section-header">
+        <span class="section-icon">🥗</span>
+        <h2 class="section-title">Салаты</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="items-grid">
+        <div class="menu-card"><span class="card-name">Теплый салат с хрустящими баклажанами</span><span class="card-price">3 000 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Салат по-восточному</span><span class="card-price">3 500 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Салат с сыром фета</span><span class="card-price">3 000 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Оливье по рецепту Ван Гога</span><span class="card-price">3 300 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Цезарь с курицей</span><span class="card-price">3 200 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Пирамида</span><span class="card-price">3 000 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Цезарь с креветками</span><span class="card-price">3 500 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Теплый с грибами</span><span class="card-price">3 000 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Болтливый гость</span><span class="card-price">3 700 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Фьори</span><span class="card-price">3 200 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Фирменный</span><span class="card-price">3 500 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Телятина с фасолью</span><span class="card-price">3 400 ₸</span></div>
+      </div>
+    </section>
+
+    <!-- БЛЮДА НА КОМПАНИЮ -->
+    <section class="menu-section" data-section="company">
+      <div class="section-header">
+        <span class="section-icon">🍖</span>
+        <h2 class="section-title">Блюда на компанию</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="items-grid company">
+        <div class="menu-card"><span class="card-name">Ассорти из колбасок</span><span class="card-price">15 000 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Ташкентский плов</span><span class="card-price">18 000 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Манты на компанию</span><span class="card-price">18 000 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Дапанджи</span><span class="card-price">18 000 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Бешбармак</span><span class="card-price">18 000 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Шах плов</span><span class="card-price">19 000 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Микс из птицы (5 персон)</span><span class="card-price">20 000 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Сырне</span><span class="card-price">20 000 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Ассорти шашлыков на 5 персон</span><span class="card-price">20 000 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Куырдак из баранины</span><span class="card-price">23 000 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Куырдак из конины</span><span class="card-price">25 000 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Казан-кебаб</span><span class="card-price">25 000 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Ассорти шашлыков на 10 персон</span><span class="card-price">40 000 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Барашек на вертеле</span><span class="card-price">100 000 ₸</span></div>
+      </div>
+    </section>
+
+    <!-- ХОЛОДНЫЕ ЗАКУСКИ -->
+    <section class="menu-section" data-section="cold">
+      <div class="section-header">
+        <span class="section-icon">🧀</span>
+        <h2 class="section-title">Холодные закуски</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="items-grid">
+        <div class="menu-card"><span class="card-name">Мясное плато</span><span class="card-price">4 490 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Сырное плато</span><span class="card-price">4 500 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Селедка под водочку</span><span class="card-price">3 300 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Разносолы из бочки</span><span class="card-price">2 900 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Фруктовая нарезка</span><span class="card-price">4 200 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Рыбное плато</span><span class="card-price">5 290 ₸</span></div>
+      </div>
+    </section>
+
+    <!-- ГОРЯЧИЕ ЗАКУСКИ -->
+    <section class="menu-section" data-section="hot-apps">
+      <div class="section-header">
+        <span class="section-icon">🍤</span>
+        <h2 class="section-title">Горячие закуски</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="items-grid">
+        <div class="menu-card"><span class="card-name">Пивной сет №1</span><span class="card-price">7 090 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Пивной сет №2</span><span class="card-price">4 390 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Пивные креветки</span><span class="card-price">3 990 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Охотничьи колбаски</span><span class="card-price">2 500 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Крылышки в соусе BBQ</span><span class="card-price">2 500 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Чесночные гарлики</span><span class="card-price">1 500 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Самса по-восточному</span><span class="card-price">3 000 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Мини-чебуреки</span><span class="card-price">2 500 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Чикен микс</span><span class="card-price">3 200 ₸</span></div>
+      </div>
+    </section>
+
+    <!-- ГОРЯЧИЕ БЛЮДА -->
+    <section class="menu-section" data-section="hot">
+      <div class="section-header">
+        <span class="section-icon">🍲</span>
+        <h2 class="section-title">Горячие блюда</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="items-grid">
+        <div class="menu-card"><span class="card-name">Манты жареные</span><span class="card-price">2 700 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Казан-кебаб из баранины</span><span class="card-price">4 100 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Манты</span><span class="card-price">2 200 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Куырдак из баранины</span><span class="card-price">3 890 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Куырдак из говядины</span><span class="card-price">3 890 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Куырдак из конины</span><span class="card-price">3 100 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Фри с мясом</span><span class="card-price">2 790 ₸</span></div>
+      </div>
+    </section>
+
+    <!-- ШАШЛЫКИ -->
+    <section class="menu-section" data-section="grill">
+      <div class="section-header">
+        <span class="section-icon">🔥</span>
+        <h2 class="section-title">Шашлыки</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="items-grid">
+        <div class="menu-card"><span class="card-name">Куриный шашлык</span><span class="card-price">3 000 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Шашлык из утки</span><span class="card-price">3 200 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Филе баранины</span><span class="card-price">4 000 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Люля-кебаб курица</span><span class="card-price">3 000 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Люля-кебаб баранина</span><span class="card-price">4 000 ₸</span></div>
+      </div>
+    </section>
+
+    <!-- ГАРНИРЫ -->
+    <section class="menu-section" data-section="sides">
+      <div class="section-header">
+        <span class="section-icon">🍟</span>
+        <h2 class="section-title">Гарниры</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="items-grid">
+        <div class="menu-card"><span class="card-name">Рис классический</span><span class="card-price">1 200 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Картофельное пюре</span><span class="card-price">1 200 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Картофельные дольки</span><span class="card-price">1 200 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Овощи гриль</span><span class="card-price">1 500 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Фри</span><span class="card-price">1 500 ₸</span></div>
+      </div>
+    </section>
+
+    <!-- ПИЦЦА -->
+    <section class="menu-section" data-section="pizza">
+      <div class="section-header">
+        <span class="section-icon">🍕</span>
+        <h2 class="section-title">Пицца</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="items-grid">
+        <div class="menu-card"><span class="card-name">Маргарита</span><span class="card-price">3 000 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Пепперони</span><span class="card-price">3 000 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Болоньеза</span><span class="card-price">3 000 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Ассорти</span><span class="card-price">3 500 ₸</span></div>
+        <div class="menu-card"><span class="card-name">4 сезона</span><span class="card-price">3 500 ₸</span></div>
+        <div class="menu-card"><span class="card-name">Сырная</span><span class="card-price">3 000 ₸</span></div>
+        <div class="menu-card"><span class="card-name">С курицей и грибами</span><span class="card-price">3 000 ₸</span></div>
+      </div>
+    </section>
+
+  </div><!-- /menu-content -->
+
+  <!-- FOOTER -->
+  <footer class="menu-footer">
+    <div class="menu-footer-inner">
+      <div class="footer-logo">TREE BAR</div>
+      <div class="footer-info">
+        г. Актобе, ул. Ш. Коспанова 27/1<br>
+        +7 708 236 70 04
+      </div>
+      <div class="footer-service">Обслуживание 10%</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
